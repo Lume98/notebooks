@@ -1,0 +1,15 @@
+{
+  "[python]": {
+    "editor.formatOnSave": true, // 保存 Python 代码时自动格式化代码
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
+    },
+    "editor.defaultFormatter": "charliermarsh.ruff" // 指定代码格式化工具为 Ruff
+  },
+  "notebook.formatOnSave.enabled": true, // 保存 Notebook 文件时自动格式化代码
+  "notebook.codeActionsOnSave": {
+    "notebook.source.fixAll": "explicit",
+    "notebook.source.organizeImports": "explicit"
+  }
+}
